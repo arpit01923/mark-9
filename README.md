@@ -12,8 +12,6 @@
 
 > **Input:** User has to click on either of the food type according to his/her wish
 
-> **Output:** User will get to know which one dish is best in this menu.
-
 > **Processing:**
 >
 > > - User has to click the type of food he recommended.
@@ -21,5 +19,6 @@
 > > - Function `foodMenu` using passed argument updates list of dishes recommended by menu, for that it uses `useState` and map.
 > > - In this app `ReactJS` is used, which handles everything behind the scenes and make work easier.
 
-<br>
-> **Link:** [Food app](codesandbox.io/s/github/arpit-dotcom)
+> **Output:** User will get to know which one dish is best in this menu.
+
+> **Link:** [Food app](https://codesandbox.io/s/github/Arpit-dotcom/mark-9)
