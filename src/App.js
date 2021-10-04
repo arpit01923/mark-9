@@ -75,7 +75,7 @@ export default function App() {
     <div className="App">
       <h1>Food</h1>
       <p Style={{ fontSize: "smaller" }}>
-        Checkout my favourite food. Select a menu to get started
+        Checkout my favourite food. Select a menu to get started 🍟 🥪
       </p>
 
       <div style={{ textAlign: "left" }}>
