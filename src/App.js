@@ -3,20 +3,65 @@ import "./styles.css";
 
 var foodMenu = {
   chinese: [
-    { name: "Chowmein", rating: "4/5" },
-    { name: "Momos", rating: "4.5/5" },
-    { name: "Hot and Sour Soup", rating: "3.5/5" }
+    {
+      name: "Chowmein",
+      description:
+        "A Chinese dish consisting of noodles fried with chicken, pork, beef, or fish, and a variety of vegetables",
+      rating: "🌟 4/5"
+    },
+    {
+      name: "Momos",
+      description:
+        "Momo is a type of steamed dumpling with some form of filling",
+      rating: "🌟 4.5/5"
+    },
+    {
+      name: "Hot and Sour Soup",
+      description:
+        " Hot and Sour soup is a spicy and hot soup made with mixed fresh vegetables, mushrooms, spices and soy sauce.",
+      rating: "🌟 3.5/5"
+    }
   ],
 
   indian: [
-    { name: "Tikka", rating: "4.5/5" },
-    { name: "Rajma Chawal", rating: "5/5" },
-    { name: "Tandoori", rating: "4/5" }
+    {
+      name: "Chicken Tikka",
+      description:
+        "Chicken tikka masala, dish consisting of marinated boneless chicken pieces that are traditionally cooked in a tandoor and then served in a subtly spiced tomato-cream sauce.",
+      rating: "🌟 4.5/5"
+    },
+    {
+      name: "Rajma Chawal",
+      description:
+        "Punjabi rajma chawal delicacy, cooked kidney beans is excitingly flavoured with a wide array of ingredients ranging from ginger etc.",
+      rating: "🌟 5/5"
+    },
+    {
+      name: "Tandoori Chicken",
+      description:
+        "A dish of roasted chicken marinated in yogurt and generously spiced, giving the meat its trademark red colour.",
+      rating: "🌟 4/5"
+    }
   ],
   italian: [
-    { name: "Panzenella", rating: "3/5" },
-    { name: "Margherita Pizza", rating: "4.5/5" },
-    { name: "Bruschetta", rating: "3.5/5" }
+    {
+      name: "Panzenella",
+      description:
+        " A chopped salad of soaked stale bread, onions and tomatoes that is popular in the summer",
+      rating: "🌟 3/5"
+    },
+    {
+      name: "Margherita Pizza",
+      description:
+        " Its ingredients representing the colours of the Italian flag. These ingredients include red tomato sauce, white mozzarella and fresh green basil.",
+      rating: "🌟 4.5/5"
+    },
+    {
+      name: "Bruschetta",
+      description:
+        "Thick slices of bread grilled, rubbed with garlic, drizzled with olive oil, often topped with tomatoes and herbs, and usually served as an appetizer",
+      rating: "🌟 3.5/5"
+    }
   ]
 };
 export default function App() {
@@ -66,6 +111,7 @@ export default function App() {
           >
             {" "}
             <div style={{ fontSize: "larger" }}> {item.name} </div>
+            <div style={{ fontSize: "medium" }}> {item.description} </div>
             <div style={{ fontSize: "smaller" }}> {item.rating} </div>
           </li>
         ))}
