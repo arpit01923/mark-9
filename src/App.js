@@ -73,7 +73,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>Food</h1>
+      <h1>😋Food😋</h1>
       <p Style={{ fontSize: "smaller" }}>
         Checkout my favourite food. Select a menu to get started 🍟 🥪
       </p>
